@@ -1,0 +1,40 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#header {
+    background-color: #5e5e5e;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#header h2 {
+    font-size: 36px;
+    margin: 10px 0 0 0;
+}
+
+#content {
+    background-color: #fff;
+    padding: 25px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#content p:first-child {
+    text-indent: 2em;
+    margin-top: 0;
+}
+
+#content p:last-child {
+    text-align: right;
+    margin-bottom: 0;
+}
